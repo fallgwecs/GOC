@@ -14,7 +14,7 @@ Um lugar que é dividido entre dois reinos, que sempre existiram sobre a ruina d
 Um lugar que é dividido entre dois reinos, que sempre existiram sobre a ruina do “bem” e do “mal”: Avaleste e Alazeque. Em Avaleste, uma população sobreviveu sob o poder dos imperadores e sob lendas e lendas cultivadas com o tempo. A classe camponesa é a que mais sofre nesse Reino, e isso se mostra cada vez mais nítido... Uma guerra explode, o reino de Avaleste e Alazeque entra numa disputa que parece definitiva. Logo, durante a guerra, surge em Avaleste algo inevitável: uma revolução camponesa em busca de melhores vidas... Rebelião essa que é proposta pelos camponeses próprios, de peito aberto, mas emocionados por um jovem que se destaca cada vez mais: Daves. .. Com uma cajadada só, o governo dos imperadores coloca Daves diretamente no exército, assim incorporando um grande soldado, e acabando com a revolução... Agora, Daves,
 
 ## Quando começou?
-Começou em 2020, entretanto o projeto foi abadonado e rertornou 13/01/2023.
+Começou em 2020, entretanto o projeto foi pausado e rertornou 13/01/2023.
 
 ## Lançamento do jogo:
 
