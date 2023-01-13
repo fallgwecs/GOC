@@ -1,5 +1,6 @@
 function setup (){
-  createCanvas(screenX, screenY)
+  createCanvas(screenX, screenY);
+  frameRate(60);
 }
 function draw () {
   screenConfig();
