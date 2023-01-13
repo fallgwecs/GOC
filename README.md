@@ -22,5 +22,5 @@ Começou em 2020, entretanto o projeto foi abadonado e rertornou 13/01/2023.
 Fabriciofkt157
 AlanDn17
 gui1579
-Maraimbow
+Marainbow
 W3spr0
