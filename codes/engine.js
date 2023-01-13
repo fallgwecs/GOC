@@ -36,5 +36,7 @@ function preload (){
 }
 // mouseClicked = função do p5 que é ativada toda vez que há um click, vc deverá usar as coordenadas do mouse para saber onde houve o click
 function mouseClicked () {
-
+  if(screenY > screenX){
+    alert('erro: vire seu dispositivo na horizontal e recarregue a pag')
+  }
 }
