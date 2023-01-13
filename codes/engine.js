@@ -51,7 +51,9 @@ function preload (){
 function mouseClicked () {
   if(mouseX > screenX - screenX * 0.10 && mouseY < screenY - screenY * 0.90){
     toggleFullScreen();
-    fscreen = true;
+    if (fscreen == false){
+      fscreen = true;
+    }
     if (fscreen == true){
       fscreen = false;
     }
