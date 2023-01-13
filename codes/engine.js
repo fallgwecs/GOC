@@ -3,9 +3,9 @@ function setup (){
   frameRate(60);
 }
 function draw () {
-  frames();
   screenConfig();
   cenarios();
+  frames();
   
 }
 
@@ -13,12 +13,14 @@ var screenX = window.screen.width, screenY = window.screen.height
 //screenX = largura da janela do usuario, screenY = altura da janela do usuário
 var c = 0
 //c indica qual o cenario atual, 0 sig tela de carregamento, 1 menu principal ...
+
 function frames (){
-  fill(0);
-  text (frameCount, 10, 10, 10, 10);
-  text (mouseY, 40, 30, 10, 10);
-  text (mouseX, 40, 10, 10, 10);
+  fill (0);
+    text (frameCount, 10, 10);
+    text (mouseY, 40, 30);
+    text (mouseX, 40, 10);
 }
+
 // frameCount = variavel do p5 que indica quantos frames já foram renderizados, mouseX e mouseY = variável do p5 que indica as cordenadas do mouse
 function screenConfig (){
 //proporção de tela
