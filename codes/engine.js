@@ -39,7 +39,29 @@ function preload (){
 }
 // mouseClicked = função do p5 que é ativada toda vez que há um click, vc deverá usar as coordenadas do mouse para saber onde houve o click
 function mouseClicked () {
+  toggleFullScreen();
   if(screenY > screenX){
     alert('erro: vire seu dispositivo na horizontal e recarregue a pag')
   }
 }
+
+function toggleFullScreen() {
+  if ((document.fullScreenElement && document.fullScrenElement !== null) ||    
+   (!document.mozFullScreen && !document.webkitIsFullScreen)) {
+    if (document.documentElement.requestFullScreen) {  
+      document.documentElement.requestFullScreen();  
+    } else if (document.documentElement.mozRequestFullScreen) {  
+      document.documentElement.mozRequestFullScreen();  
+    } else if (document.documentElement.webkitRequestFullScreen) {  
+      document.documentElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);  
+    }  
+  } else {  
+    if (document.cancelFullScreen) {  
+      document.cancelFullScreen();  
+    } else if (document.mozCancelFullScreen) {  
+      document.mozCancelFullScreen();  
+    } else if (document.webkitCancelFullScreen) {  
+      document.webkitCancelFullScreen();  
+    }  
+  } 
+} 
