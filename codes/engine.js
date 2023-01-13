@@ -14,10 +14,9 @@ var screenX = window.screen.width, screenY = window.screen.height
 var c = 0
 //c indica qual o cenario atual, 0 sig tela de carregamento, 1 menu principal ...
 function frames (){
-  text ("fhsbshav", 10, 10);
-  text (frameCount, 10, 10);
-  text (mouseY, 40, 30);
-  text (mouseX, 40, 10);
+  text (frameCount, 10, 10, 10, 10);
+  text (mouseY, 40, 30, 10, 10);
+  text (mouseX, 40, 10, 10, 10);
 }
 // frameCount = variavel do p5 que indica quantos frames já foram renderizados, mouseX e mouseY = variável do p5 que indica as cordenadas do mouse
 function screenConfig (){
