@@ -3,9 +3,9 @@ function setup (){
   frameRate(60);
 }
 function draw () {
+  frames();
   screenConfig();
   cenarios();
-  frames();
   
 }
 
