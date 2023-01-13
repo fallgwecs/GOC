@@ -7,10 +7,10 @@ function draw () {
   cenarios();
   frames();
   if(fscreen == false){
-    image(fs.false, screenX - screenX * 0.02, 0, 20, 20) 
+    image(fs.false, screenX - screenX * 0.04, 0, 20, 20) 
   }
   else{
-    image(fs.true, screenX - screenX * 0.02, 0, 20, 20) 
+    image(fs.true, screenX - screenX * 0.04, 0, 20, 20) 
   }
   
 }
