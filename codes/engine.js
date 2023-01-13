@@ -21,13 +21,12 @@ function frames (){
 }
 // frameCount = variavel do p5 que indica quantos frames já foram renderizados, mouseX e mouseY = variável do p5 que indica as cordenadas do mouse
 function screenConfig (){
+//proporção de tela
   if (screenX > screenY + screenY * 0.80){
-    propor = 1
-    //20:9
+    propor = 20.9
   }
   else {
-    propor = 2
-    //16:9
+    propor = 16.9
   }
 }
 
