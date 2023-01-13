@@ -6,6 +6,12 @@ function draw () {
   screenConfig();
   cenarios();
   frames();
+  if(fscreen == false){
+    image(fs.false, screenX - screenX * 0.05, 0, 25, 25) 
+  }
+  else{
+    image(fs.true, screenX - screenX * 0.05, 0, 25, 25) 
+  }
   
 }
 
@@ -33,13 +39,22 @@ function screenConfig (){
   }
 }
 
-
+var fscreen = false;
+var fs
 function preload (){
-  
+  fs = {
+    true: loadImage('assets/fs_true.png'),
+    false: loadImage('assets/fs_false.png')
+  }
 }
 // mouseClicked = função do p5 que é ativada toda vez que há um click, vc deverá usar as coordenadas do mouse para saber onde houve o click
 function mouseClicked () {
-  toggleFullScreen();
+  if(mouseX > screenX - screenX * 0.10 && mouseY < screenY - screenY * 0.90){
+    toggleFullScreen();
+    fscreen = true;
+  }
+
+
   if(screenY > screenX){
     alert('erro: vire seu dispositivo na horizontal e recarregue a pag')
   }
