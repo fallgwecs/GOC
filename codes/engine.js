@@ -14,6 +14,7 @@ var screenX = window.screen.width, screenY = window.screen.height
 var c = 0
 //c indica qual o cenario atual, 0 sig tela de carregamento, 1 menu principal ...
 function frames (){
+  fill(0);
   text (frameCount, 10, 10, 10, 10);
   text (mouseY, 40, 30, 10, 10);
   text (mouseX, 40, 10, 10, 10);
