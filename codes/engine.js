@@ -19,6 +19,7 @@ function frames (){
     text (frameCount, 10, 10);
     text (mouseY, 40, 30);
     text (mouseX, 40, 10);
+  console.log('função funcionando');
 }
 
 // frameCount = variavel do p5 que indica quantos frames já foram renderizados, mouseX e mouseY = variável do p5 que indica as cordenadas do mouse
