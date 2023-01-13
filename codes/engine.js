@@ -23,8 +23,8 @@ var c = 0
 function frames (){
   fill (0);
     text (frameCount, 10, 10);
-    text (mouseY, 40, 30);
-    text (mouseX, 40, 10);
+    text (mouseY, 50, 30);
+    text (mouseX, 50, 10);
   console.log('função funcionando');
 }
 
