@@ -4,6 +4,7 @@ function setup (){
 function draw () {
   screenConfig();
   frames();
+  cenarios();
 }
 
 var screenX = window.screen.width, screenY = window.screen.height
@@ -33,6 +34,7 @@ function screenConfig (){
 function preload (){
   
 }
+// mouseClicked = função do p5 que é ativada toda vez que há um click, vc deverá usar as coordenadas do mouse para saber onde houve o click
 function mouseClicked () {
   
 }
