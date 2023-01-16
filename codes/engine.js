@@ -2,6 +2,7 @@ function setup (){
   createCanvas(screenX, screenY);
   frameRate(60);
 }
+
 function draw () {
   screenConfig();
   cenarios();
