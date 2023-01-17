@@ -45,11 +45,9 @@ var fscreen = false;
 var fs
 var ld
 function preload (){
-  if (propor == 20.9){
-    ld = loadImage('assets/mC/mC-20_9.png')  
-  }    
-  if (propor == 20.9){
-    ld = loadImage('assets/mC/mC-16_9.png')  
+  ld = {
+    ld20: loadImage('assets/mC/mC-20_9.png'),
+    ld16: loadImage('assets/mC/mC-16_9.png')
   } 
   fs = {
     true: loadImage('assets/fs_true.png'),
