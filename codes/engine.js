@@ -7,13 +7,7 @@ function draw () {
   screenConfig();
   cenarios();
   frames();
-  if(fscreen == false){
-    image(fs.false, screenX - screenX * 0.04, 0, 20, 20) 
-  }
-  else{
-    image(fs.true, screenX - screenX * 0.04, 0, 20, 20) 
-  }
-  
+  interfaces();
 }
 
 var screenX = window.screen.width, screenY = window.screen.height
@@ -28,7 +22,14 @@ function frames (){
     text (mouseX, 50, 10);
   console.log('função funcionando');
 }
-
+function interfaces (){
+  if(fscreen == false){
+    image(fs.false, screenX - screenX * 0.04, 0, 20, 20) 
+  }
+  else{
+    image(fs.true, screenX - screenX * 0.04, 0, 20, 20) 
+  }
+}
 // frameCount = variavel do p5 que indica quantos frames já foram renderizados, mouseX e mouseY = variável do p5 que indica as cordenadas do mouse
 function screenConfig (){
 //proporção de tela
@@ -42,7 +43,14 @@ function screenConfig (){
 
 var fscreen = false;
 var fs
+var ld
 function preload (){
+  if (propor == 20.9){
+    ld = loadImage('assets/mC/mC-20_9.png')  
+  }    
+  if (propor == 20.9){
+    ld = loadImage('assets/mC/mC-16_9.png')  
+  } 
   fs = {
     true: loadImage('assets/fs_true.png'),
     false: loadImage('assets/fs_false.png')
@@ -86,3 +94,4 @@ function toggleFullScreen() {
     }  
   } 
 } 
+
