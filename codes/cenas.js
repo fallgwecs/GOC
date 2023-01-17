@@ -8,6 +8,8 @@ function cenarios (){
     }
     tld();
   }
+  if (c == 1){
+    background(mp.bg);
 }
 var mp
 
