@@ -15,6 +15,7 @@
 Começou em 2020, entretanto o projeto foi pausado e rertornou 13/01/2023.
 
 ## Lançamento do jogo:
+não previsto...
 
 ## Equipe:
 Fabriciofkt157
