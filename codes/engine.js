@@ -1,10 +1,10 @@
 function setup (){
   createCanvas(screenX, screenY);
   frameRate(60);
+  screenConfig();
 }
 
 function draw () {
-  screenConfig();
   cenarios();
   frames();
   interfaces();
