@@ -1,5 +1,5 @@
 # Guardians Of Crystal
-<h5>Olá🤘 #Beta v0.0.1 Code v0.0.1.1</h5>
+<h5>Olá🤘 #Beta v0.0.1 Code v0.0.1.2</h5>
 
 <h3>Instslação</h3>
 <h5>Android:</h5>
