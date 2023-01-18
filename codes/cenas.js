@@ -6,11 +6,17 @@ function cenarios (){
       background(ld.ld20)
       tld20();
     }
+    else if (c == 1){
+      background(mp.bg)
+    }
   }
   if (propor == 16.9){
     if (c == 0){
       background(ld.ld16);
       tld16();
+    }
+    else if (c == 1){
+      background(mp.bg)
     }
   }
 }
