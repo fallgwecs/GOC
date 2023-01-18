@@ -17,6 +17,7 @@ var c = 0
 
 function frames (){
   fill (0);
+  if (c == 1){fill (220)}
     text (frameCount, 10, 10);
     text (mouseY, 50, 30);
     text (mouseX, 50, 10);
