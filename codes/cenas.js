@@ -10,6 +10,7 @@ function cenarios (){
   }
   if (c == 1){
     background(mp.bg);
+  }  
 }
 var mp
 
