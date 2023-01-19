@@ -10,7 +10,7 @@ function cenarios (){
       background(mp.bg);
       image(mp.lb, screenX * 0.01, screenY * 0.35, screenX * 0.07, screenY * 0.07);
       image(mp.ngb, screenX * 0.01, screenY * 0.50, screenX * 0.07, screenY * 0.07);
-    } 
+    }  
   }
   if (propor == 16.9){
     if (c == 0){
