@@ -9,7 +9,7 @@ function cenarios (){
     else if (c == 1){
       background(mp.bg);
       image(mp.lb, screenX * 0.02, screenY * 0.20, screenX * 0.12, screenY * 0.07);
-      image(mp.ngb, screenX * 0.02, screenY * 0.35, screenX * 0.10, screenY * 0.07);
+      image(mp.ngb, screenX * 0.02, screenY * 0.28, screenX * 0.13, screenY * 0.07);
     }  
   }
   if (propor == 16.9){
@@ -19,8 +19,8 @@ function cenarios (){
     }
     else if (c == 1){
       background(mp.bg);
-      image(mp.lb, screenX * 0.02, screenY * 0.35, screenX * 0.10, screenY * 0.07);
-      image(mp.ngb, screenX * 0.02, screenY * 0.50, screenX * 0.10, screenY * 0.07);
+      image(mp.lb, screenX * 0.02, screenY * 0.20, screenX * 0.12, screenY * 0.07);
+      image(mp.ngb, screenX * 0.02, screenY * 0.28, screenX * 0.13, screenY * 0.07);
     }
   } 
 }
