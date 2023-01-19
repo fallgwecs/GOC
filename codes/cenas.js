@@ -22,7 +22,7 @@ function cenarios (){
       image(mp.lb, screenX*0.01, screenY*0.35, screenX*0.07, screenY*0.07);
       image(mp.ngb, screenX*0.01, screenY*0.40, screenX*0.07, screenY*0.07);
     }
-  }
+  } 
 }
 var mp
 //mp = menu principal; tld = tela de loading; bg = background; lb = loadButton ngb = newGmeButton
