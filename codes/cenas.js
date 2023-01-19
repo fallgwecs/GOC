@@ -21,7 +21,7 @@ function cenarios (){
   }
 }
 var mp
-//mp = menu principal; tld = tela de loading; bg = background
+//mp = menu principal; tld = tela de loading; bg = background; lb = loadButton ngb = newGmeButton
 //prefiri fazer as telas de loading separadas de acordo com a proporção assim evitando verificações desnecessarias.
 function tld20 (){
   if (propor == 20.9){
