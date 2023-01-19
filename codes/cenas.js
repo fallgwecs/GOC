@@ -26,7 +26,9 @@ var mp
 function tld20 (){
   if (propor == 20.9){
     mp = {
-        bg: loadImage('assets/mP/mP-20_9.png')
+        bg: loadImage('assets/mP/mP-20_9.png'),
+        lb: loadImage('assets/mP/loadButton.png'),
+        ngb: loadImage('assets/mP/newGameButton.png')
     }
   }
   if (frameCount == 100){
@@ -36,7 +38,9 @@ function tld20 (){
 function tld16 (){
   if (propor == 16.9){
     mp = {
-        bg: loadImage('assets/mP/mP-16_9.png')
+        bg: loadImage('assets/mP/mP-16_9.png'),
+        lb: loadImage('assets/mP/loadButton.png'),
+        ngb: loadImage('assets/mP/newGameButton.png')
     }
   } 
   if (frameCount == 100){
