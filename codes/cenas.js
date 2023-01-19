@@ -7,7 +7,9 @@ function cenarios (){
       tld20();
     }
     else if (c == 1){
-      background(mp.bg)
+      background(mp.bg);
+      Image(mp.lb, screenX*0.01, screenY*0.35, screenX*0.07, screenY*0.07);
+      Image(mp.ngb, screenX*0.01, screenY*0.40, screenX*0.07, screenY*0.07);
     }
   }
   if (propor == 16.9){
@@ -16,7 +18,9 @@ function cenarios (){
       tld16();
     }
     else if (c == 1){
-      background(mp.bg)
+      background(mp.bg);
+      Image(mp.lb, screenX*0.01, screenY*0.35, screenX*0.07, screenY*0.07);
+      Image(mp.ngb, screenX*0.01, screenY*0.40, screenX*0.07, screenY*0.07);
     }
   }
 }
