@@ -1,3 +1,16 @@
+var fps
+
+function draw() {
+  background(200);
+  fps = frameRate().toFixed(0);
+  textSize(16);
+  fill(255);
+  text("FPS: " + fps, 10, 32);
+}
+
+
+
+
 function setup (){
   createCanvas(screenX, screenY);
   frameRate(60);
@@ -6,6 +19,7 @@ function setup (){
 
 function draw () {
   cenarios();
+  
   frames();
   interfaces();
 }
@@ -18,6 +32,10 @@ var c = 0
 function frames (){
   fill (0);
   if (c == 1){fill (220)}
+  fps = frameRate().toFixed(0);
+  textSize(16);
+  fill(255);
+  text("FPS: " + fps, 10, 32);
     text (frameCount, 10, 10);
     text (mouseY, 50, 30);
     text (mouseX, 50, 10);
