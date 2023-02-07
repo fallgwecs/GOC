@@ -1,16 +1,4 @@
 var fps
-
-function draw() {
-  background(200);
-  fps = frameRate().toFixed(0);
-  textSize(16);
-  fill(255);
-  text("FPS: " + fps, 10, 32);
-}
-
-
-
-
 function setup (){
   createCanvas(screenX, screenY);
   frameRate(60);
