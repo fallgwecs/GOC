@@ -23,7 +23,7 @@ function frames (){
   fps = frameRate().toFixed(0);
   textSize(16);
   fill(255);
-  text("FPS: " + fps, 10, 32);
+  text("FPS: " + fps, 10, 50);
     text (frameCount, 10, 10);
     text (mouseY, 50, 30);
     text (mouseX, 50, 10);
